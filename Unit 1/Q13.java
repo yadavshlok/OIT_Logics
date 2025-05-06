@@ -1,6 +1,6 @@
 //Write a program to find the area and perimeter of a square?
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Q13 
 {
