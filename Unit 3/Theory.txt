@@ -1,0 +1,49 @@
+Q.1 What is the difference between built-in and user-defined methods?
+
+->  Built-in methods are already defined in Java's standard libraries and are available for direct use.
+    These are provided by Java Development Kit (JDK).
+    Ex. Math.pow(), System.out.println(), String.length(), etc.
+
+    User-defined methods are those that the programmer creates to perform specific tasks according to the requirements of the problem. These are declared and implemented by the user.
+    Ex. public int add(int a, int b) 
+    {
+        return a + b;
+    }
+
+//-------
+Q.2 How do you declare and define a method in Java?
+
+->  A method/function consists of these main parts :
+
+    returnType functionName(Arguments)
+    {
+        Function Body
+    }
+
+    returnType - Datatype of return values
+    functionName - Name given to the function
+    arguments/parameters - input to the function
+    function body - defines function task
+    
+//-------
+Q.3 What is the purpose of void and other return types in functions?
+
+->  void - performs action returns nothing
+    int - returns integer result
+    double - returns decimal value
+    boolean - returns true/false
+
+//-------
+Q.4 What is the difference between formal parameters and actual parameters?
+
+->  
+    Formal parameters are placeholders or variables defined in the function declaration or definition. They are used to receive values from the calling code.
+    
+    Actual parameters (or arguments) are the real values or expressions passed to a function when it is called.
+
+//-------   
+Q.5 What is the significance of parameters and return values in methods?
+
+->  Parameters are used to pass data into the function/methods
+
+    Return values are used to return data to where function is being called
